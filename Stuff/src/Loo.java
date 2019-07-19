@@ -41,10 +41,10 @@ public class Loo {
 		 * Variabilele date conditiei while loop-ului vor fi declarate si initializate in afara loop-ului
 		 */
 		
-		int bn = 0;
-		while(bn < 10) {
-			System.out.println(bn);
-			bn++;
+		int bnx = 0;
+		while(bnx < 10) {
+			System.out.println(bnx);
+			bnx++;
 		}
 	}
 	
