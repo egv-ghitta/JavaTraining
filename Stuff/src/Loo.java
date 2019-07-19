@@ -28,11 +28,11 @@ public class Loo {
 		 * 
 		 */
 		
-		int j = 0;
+		int l = 0;
 		do {
 			System.out.println("Boing");
-			j++;
-		}while(j < 10);
+			l++;
+		}while(l < 10);
 		
 		
 		//While loop
