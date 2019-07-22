@@ -1,0 +1,44 @@
+Programarea orientata obiect este o metodologie sau o paradigma ce realizeaza design-ul programului folosing clase si obiecte.
+
+Componente:
+
+Clasa
+Obiectele
+Encapsularea
+Mostenirea
+Polimorfismul
+Abstractia
+
+Clasa
+
+Clasa este o colectie de obiecte. O clasa poate sa fie definita si ca un blueprint in care poti sa creezi un obiect individual.
+
+Obiectul
+
+Este o entitate care are un anumit state si un anumit behavior. De exemplu: un scaun, un pix, o tabla,etc. Poate sa ia o intruchipare fizica sau logica.
+
+Ex. Un caine este un obiect deoarece are un state (culoare, nume,rasa,etc) precum si un behavior (da din coada, latra,mananca,etc)
+
+Un obiect poate sa fie definit ca si o instanta a unei clase. In interiorul clasei, state-ul este reprezentat de catre Variabile si behavior-ul este reprezentat de catre metode.
+
+An instance, in object-oriented programming (OOP), is a specific realization of any object. An object may be varied in a number of ways. Each realized variation of that object is an instance. The creation of a realized instance is called instantiation. Each time a program runs, it is an instance of that program.
+
+Mostenirea (Inheritance)
+
+Este atunci cand un obiect mosteneste toate proprietatiile si metodele (actiunile) obiectului parinte. Ne da code reusability!
+
+Polimorfismul
+
+Este atunci cand un task este realizat (sau finalizat) prin mai multe cai. In JAVA folosim method overloading si method overriding ca sa atingem polimorfismul.
+
+Ex: cat speaks meow, dog speaks woof, etc
+
+Abstractizarea 
+
+Reprezinta ascunderea detaliilor interne si afisarea doar a functionalitatii. In java folosim clase abstracte si interfate pentru a realiza abstractizarea.
+
+ex. Corpul uman e cel care se vede iar organele sunt ascunse. (detaliile sun ascunse).
+
+Encapsulare
+
+Binding (wrapping) code si data together intr-un unit singur este numit encapsulare. Clasa Java insasi este un exemplu de encapsulare.
