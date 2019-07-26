@@ -1,5 +1,7 @@
 
 public class MostenireaCar {
+	//Daca setam ca aceasta clasa sa fie final, ea nuo sa mai poata sa fie mostenita!
+	
 	MostenireaCar(){
 		System.out.println("Creating car");
 	}
@@ -18,10 +20,10 @@ public class MostenireaCar {
 	public void run() {
 		System.out.println("The car is running");
 	}
-	public void stop() {
+	public final void stop() {
 		System.out.println("The car stopped");
 	}
-	
+	//Metodele final nu pot sa fie overriden de catre clasele copil!
 	
 	
 }

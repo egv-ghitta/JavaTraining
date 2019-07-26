@@ -1,5 +1,16 @@
 
 public class Variabilele {
+final String fullName = "EmilGhitta";
+final int myAge =26;
+
+//Final este folosit pentru a face restrictie user-ului. Variabilele, metodele si clasele pot sa fie definite ca final.
+//Variabilele final nu pot sa fie modificate!
+
+//public void stAge() {
+//	myAge = 35;  -- Nu putem sa modificam variabila fiindca ii final
+//}
+
+
 int i = 0;
 static int x = 0;
 	

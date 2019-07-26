@@ -24,6 +24,10 @@ public void getName() {
 	 */
 }
 
+//public void stop() {
+	///System.out.println("hah"); Nu putem sa ii face override fiindca aceasta metoda este definita ca final in clasa parinte
+//}
+
 public void run() {
 	System.out.println("BMW is running");
 	super.run();
